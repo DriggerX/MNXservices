@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNX Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="C:\Users\rik20\Downloads\Website html\Website html\LOGO_1.png" alt="MNX Logo" class="logo-img">
+            </div>
+                <div class="nav-links">
+                <a href="#why-us">Why Us</a>
+                <a href="#services">Services</a>
+                <a href="#results">Results</a>
+                <a href="#contact" class="cta-button">Get a Price Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Transform Your Business with Proven Digital Marketing</h1>
+                <p>Drive real growth with our battle-tested Facebook ad strategies and customer retention solutions.</p>
+                <a href="#contact" class="cta-button">Scale Your Business Today</a>
+            </div>
+        </section>
+
+        <section id="why-us" class="why-choose-us">
+            <div class="container">
+                <h2>💡 Why Our Clients Choose Us</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <h3>🎯 Appointment Setting That Works</h3>
+                        <p>We use battle-tested Facebook ad strategies to fill your calendar with potential customers who actually show up.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>📈 Sales via Facebook Ads</h3>
+                        <p>Our ad strategies don't just bring leads — they drive real sales and revenue for your business.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>🔁 Customer Retention Made Simple</h3>
+                        <p>We help businesses turn one-time buyers into loyal, returning customers — boosting your lifetime customer value effortlessly.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>📊 Proven Results: Over 10,000+ Leads & Sales</h3>
+                        <p>We don't just talk, we show. Our systems have driven measurable growth for businesses just like yours.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>💸 Low-Ticket, Business-Friendly Pricing</h3>
+                        <p>Growth shouldn't cost a fortune. Our packages are designed for small businesses and ambitious startups.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>🛡️ 100% Money-Back Guarantee</h3>
+                        <p>We deliver what we promise — or you don't pay. Zero risk. Only growth.</p>
+                    </div>
+                </div>                
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>🚀 What You Get with MNX</h2>
+                <div class="services-list">
+                    <div class="service-item">
+                        <span>📢</span>
+                        <p><strong>Done-for-you Facebook Ad Campaigns</strong><br>to book appointments & drive sales.</p>
+                    </div>
+                    <div class="service-item">
+                        <span>🎯</span>
+                        <p><strong>Tailored Lead Generation Systems</strong><br>custom-fit to your business goals.</p>
+                    </div>
+                    <div class="service-item">
+                        <span>🔁</span>
+                        <p><strong>Customer Retention Strategies</strong><br>to keep your customers coming back.</p>
+                    </div>
+                    <div class="service-item">
+                        <span>⚙️</span>
+                        <p><strong>Complete Setup & Optimization</strong><br>from start to finish — no guesswork.</p>
+                    </div>
+                    <div class="service-item">
+                        <span>📊</span>
+                        <p><strong>Weekly Performance Reports</strong><br>track your growth and ad ROI transparently.</p>
+                    </div>
+                    <div class="service-item">
+                        <span>🤝</span>
+                        <p><strong>Transparent & Honest Service</strong><br>no fluff, no jargon — just real results.</p>
+                    </div>
+                </div>
+            </div>
+        </section>        
+
+        <section id="results" class="results">
+            <div class="container">
+                <h2>💬 See Real Results. Get Real Growth.</h2>
+                <p>If you're tired of agencies that overpromise and underdeliver — it's time for a change.<br>We're so confident in what we offer: if we don't deliver, you get your money back.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="cta-section">
+            <div class="container">
+                <h2>🔥 Ready to Scale Your Business?</h2>
+                <p>Click Below to Get Your Custom Price — No Hidden Fees.</p>
+                <a href="#" class="cta-button">👉 Get a Price Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 MNX Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Directly open Calendly when clicking price buttons
+        document.querySelectorAll('a.cta-button').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.location.href = 'https://calendly.com/ns-founder-mnxservices/30min';
+            });
+        });
+    });
+</script>
+
+<!-- Remove entire modal div and its related code -->
+</body>
+</html>
